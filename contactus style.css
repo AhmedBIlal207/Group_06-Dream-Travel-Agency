@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,13 +6,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* BODY */
 body {
     background: linear-gradient(135deg, #df4a81, #c430d7, #b03ad8);
     overflow-x: hidden;
 }
 
-/* HEADER */
 .top-header {
     text-align: center;
     padding: 50px 20px;
@@ -31,14 +29,12 @@ body {
     font-size: 1.2rem;
 }
 
-/* CONTACT INFO */
 .contact-main {
     padding: 50px 20px;
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
-
 .contact-info {
     display: flex;
     justify-content: center;
@@ -72,7 +68,6 @@ body {
     line-height: 1.5;
 }
 
-/* CONTACT FORM */
 .contact-form form {
     display: flex;
     flex-direction: column;
@@ -118,7 +113,6 @@ body {
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
-/* FOOTER */
 .footer {
     text-align: center;
     padding: 30px 20px;
@@ -127,7 +121,6 @@ body {
     text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
 }
 
-/* RESPONSIVE */
 @media(max-width:768px){
     .top-header h1 {
         font-size: 2rem;
@@ -148,4 +141,5 @@ body {
         font-size: 0.9rem;
     }
 }
+
 
