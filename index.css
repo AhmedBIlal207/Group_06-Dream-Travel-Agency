@@ -176,7 +176,6 @@ main {
     overflow: hidden;
 }
 
-/* ================= FOOTER ================= */
 .foot {
     background: #1f1f1f;
     color: #fff;
@@ -189,7 +188,6 @@ main {
     text-decoration: none;
 }
 
-/* ================= RESPONSIVE ================= */
 
 /* TABLET */
 @media(max-width:1024px){
@@ -238,4 +236,5 @@ main {
     .hero-btn { padding: 14px 30px; }
     .About-us p { font-size: 1rem; }
 }
+
 
